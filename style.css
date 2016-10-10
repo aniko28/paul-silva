@@ -47,10 +47,16 @@ table {
     border-spacing: 0;
 }
 
+body{
+    font-family: Montserrat;
+    color: white;
+    display: block;
+}
+
 .top {
     background: url("back.jpg") no-repeat center;
     height: 550px;
-
+    background-size: cover;
 }
 
 .menu{
@@ -74,4 +80,69 @@ table {
 .menu li{
     display: inline-block;
     padding: 0 10px 0 ;
+}
+.header{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header h4{
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+}
+.header h1 {
+    letter-spacing: 4px;
+    font-size: 80px;
+    font-weight: bold;
+    height: 110px;
+}
+.content {
+    text-align: center;
+    clear: both;
+
+}
+
+.wrapper h1{
+    font-weight: 700;
+    color: #4a4a4a;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrapper ul{
+    margin: 10px 20px;
+}
+
+.wrapper li{
+    display: inline-block;
+    margin: 28px 28px 0 0;
+
+}
+
+.social{
+    background-color:  #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 70px 0 0;
+    color: #4a4a4a;
+    font-size:  40px;
+    text-align: center;
+}
+.social li{
+    text-align: center;
+    margin: 0 130px 0 0;
+    padding: 0 10px 0 0;
+}
+.footer{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+}
+}
+.wrapper2 p {
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
 }
