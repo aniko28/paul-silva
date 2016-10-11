@@ -100,7 +100,15 @@ body{
 .content {
     text-align: center;
     clear: both;
+}
 
+.content li {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.content li img {
+    width: 100%;
 }
 
 .wrapper h1{
@@ -111,14 +119,9 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.wrapper ul{
-    margin: 10px 20px;
-}
 
 .wrapper li{
     display: inline-block;
-    margin: 28px 28px 0 0;
-
 }
 
 .social{
@@ -131,18 +134,31 @@ body{
     text-align: center;
 }
 .social li{
+    display: inline-block;
     text-align: center;
-    margin: 0 130px 0 0;
-    padding: 0 10px 0 0;
+    width: 14%;
 }
 .footer{
     padding-top: 70px;
     padding-bottom: 50px;
     background-color: #2f2f2f;
 }
+
+.wrapper {
+    width: 1080px;
+    margin: 0 auto;
 }
-.wrapper2 p {
-    float: left;
+
+/* Ez volt a "trükk"! A div-nek kellett azt mondani, hogy inline-block, nem a p-nek. */
+.footer .wrapper > div {
+    display: inline-block;
+    width: 33%;
     font-weight: bold;
-    font-size: 30px;
+    vertical-align: top;
 }
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+}
+
